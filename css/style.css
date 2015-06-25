@@ -1,0 +1,183 @@
+#top {
+    background:url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    min-height:189px;
+}
+
+/*navigation
+/* Generated via www.cssmenubuilder.com 
+
+.menu{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('topMenuImages.png') repeat-x;}
+.menu li{padding:0; margin:0; list-style:none; display:inline;}
+.menu li a{float:left; padding-left:15px; display:block; color:rgb(255,255,255); text-decoration:none; font:12px Verdana, Arial, Helvetica, sans-serif; cursor:pointer; background:url('topMenuImages.png') 0px -30px no-repeat;}
+.menu li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('topMenuImages.png') 100% -30px no-repeat;}
+.menu li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+.menu li a:hover span{background-position:100% -60px;}
+.menu li a.active, .menu li a.active:hover{line-height:30px; font:12px Verdana, Arial, Helvetica, sans-serif; background:url('topMenuImages.png') 0px -90px no-repeat; color:rgb(255,255,255);}
+.menu li a.active span, .menu li a.active:hover span{background:url('topMenuImages.png') 100% -90px no-repeat;}
+
+end menu*/
+
+/*button */
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#7d9c9f;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*end button*/
+
+
+body {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+.button {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+.button-group li {
+    padding-top: 3%;
+}
+.button-group a {
+    color: rgba(0, 0, 0, 1);
+    background-color: transparent;
+}
+.button-group a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
+.button-group {
+    float: none;
+}
+@media only screen and (min-width: 40.063em) {
+    .button-group {
+        float: right;
+    }
+}
+.namelogo {
+    padding: 20px 10px 0px 10px;
+}
+@media only screen and (min-width: 40.063em) {
+    .namelogo {
+        padding-bottom: 20px;
+    }
+}
+.namelogo h1 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+@media only screen and (min-width: 40.063em) {
+    .namelogo h1 {
+        font-size: 16px;
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 64.063em) {
+    .namelogo h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+}
+.hero {
+    background: url(http://placehold.it/900x800);
+    background-size: cover;
+    box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.15);
+    height: 80%;
+}
+.intro-text {
+    padding-top: 40%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+@media only screen and (min-width: 40.063em) {
+    .intro-text {
+        padding-top: 25%;
+    }
+}
+@media only screen and (min-width: 64.063em) {
+    .intro-text {
+        padding-top: 18%;
+    }
+}
+.intro-text p {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 44px;
+}
+.about,
+.work,
+.contact {
+    padding: 50px 0 0 0;
+}
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+.work img:hover {
+    opacity: 0.5;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.work li {
+    height: 140px;
+    overflow: hidden;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    opacity: 0.8;
+}
+footer {
+    padding: 80px 0 10px 0;
+}
+footer a:hover {
+    color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
+}
